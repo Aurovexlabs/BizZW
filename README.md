@@ -202,9 +202,3 @@ Contributions are welcome. Suggested workflow:
 1. Create a feature branch.
 2. Make your changes and run the relevant tests locally.
 3. Open a pull request once the checks pass.
-
-If you want stricter contribution rules later, add a `CONTRIBUTING.md` file or PR templates.
-
-## License
-
-If you intend to publish this project, add a `LICENSE` file (for example `MIT`) and reference it here.
