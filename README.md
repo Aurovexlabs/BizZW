@@ -122,51 +122,6 @@ npm run dev
 # App: http://localhost:5173
 ```
 
-## Environment Variables
-
-### Backend (`backend/.env`)
-
-| Variable                   | Description                                                                        |
-| -------------------------- | ---------------------------------------------------------------------------------- |
-| `MONGODB_URI`              | MongoDB Atlas connection string                                                    |
-| `JWT_ACCESS_SECRET`        | Random 32+ char secret                                                             |
-| `JWT_REFRESH_SECRET`       | Different random 32+ char secret                                                   |
-| `API_RATE_LIMIT_WINDOW_MS` | Global API limiter window in milliseconds (default `900000`)                       |
-| `API_RATE_LIMIT_MAX`       | Global API limiter maximum requests per window                                     |
-| `IMAGEKIT_PUBLIC_KEY`      | ImageKit.io public key                                                             |
-| `IMAGEKIT_PRIVATE_KEY`     | ImageKit.io private key                                                            |
-| `IMAGEKIT_URL_ENDPOINT`    | `https://ik.imagekit.io/yourID`                                                    |
-| `RESEND_API_KEY`           | Resend.com API key                                                                 |
-| `RESEND_FROM`              | Sender identity (e.g. `BizZW <noreply@bizzw.dev>`)                                 |
-| `EMAIL_PROVIDER_PRIMARY`   | Email provider priority: `resend` (default) or `smtp`                              |
-| `SMTP_HOST`                | SMTP fallback host (optional, used for Nodemailer failover)                        |
-| `SMTP_PORT`                | SMTP fallback port (e.g. `587`)                                                    |
-| `SMTP_SECURE`              | Set `true` for SMTPS/465, otherwise `false`                                        |
-| `SMTP_USER`                | SMTP fallback username                                                             |
-| `SMTP_PASS`                | SMTP fallback password                                                             |
-| `SMTP_FROM`                | Optional sender identity for SMTP fallback                                         |
-| `PAYNOW_INTEGRATION_ID`    | Paynow merchant ID                                                                 |
-| `PAYNOW_INTEGRATION_KEY`   | Paynow merchant key                                                                |
-| `PUBLIC_API_BASE_URL`      | Public backend base URL used for Paynow callbacks (e.g. `https://api.example.com`) |
-| `GEMINI_API_KEY`           | Google Gemini API key                                                              |
-| `CLIENT_URL`               | Frontend URL (e.g. `http://localhost:5173`)                                        |
-
-Production values for your domain:
-
-- `CLIENT_URL=https://bizzw.dev`
-- `PUBLIC_API_BASE_URL=https://api.bizzw.dev`
-- `RESEND_FROM=BizZW <noreply@bizzw.dev>`
-
-### Frontend (`frontend/.env`)
-
-| Variable                     | Description                                |
-| ---------------------------- | ------------------------------------------ |
-| `VITE_API_URL`               | Backend URL (e.g. `http://localhost:5000`) |
-| `VITE_IMAGEKIT_PUBLIC_KEY`   | ImageKit.io public key                     |
-| `VITE_IMAGEKIT_URL_ENDPOINT` | ImageKit.io URL endpoint                   |
-
-## Testing And Builds
-
 ### Backend
 
 ```bash
