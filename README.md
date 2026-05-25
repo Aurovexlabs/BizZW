@@ -189,12 +189,6 @@ npm run build
 npm run preview
 ```
 
-## Deployment Notes
-
-- Backend: deploy to a Node.js host with MongoDB, Redis, ImageKit, Resend, Paynow, and Gemini configured through environment variables.
-- Frontend: deploy the built `frontend/dist` output to any static host.
-- CI workflows are already included under `.github/workflows/` for backend quality checks, frontend checks, and frontend build/deploy.
-
 ## Contributing
 
 Contributions are welcome. Suggested workflow:
