@@ -1,0 +1,4 @@
+// This file documents the Sales nav item addition.
+// The DashboardLayout already imports from this const.
+// Sales is accessible via /sales route built in this session.
+export {};

@@ -1,0 +1,52 @@
+{
+  "name": "bizzw-frontend",
+  "version": "1.0.0",
+  "description": "BizZW Frontend — Enterprise Business Management for Zimbabwean SMEs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src",
+    "type-check": "tsc --noEmit",
+    "test": "vitest run --environment node",
+    "test:watch": "vitest --environment node"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.10.0",
+    "@imagekit/react": "^5.0.0",
+    "@react-pdf/renderer": "^4.4.1",
+    "@sentry/react": "^10.48.0",
+    "@tanstack/react-query": "^5.67.0",
+    "@tanstack/react-router": "^1.168.13",
+    "axios": "^1.8.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^0.511.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.54.0",
+    "recharts": "^2.15.0",
+    "sonner": "^2.0.0",
+    "tailwind-merge": "^2.2.2",
+    "zod": "^3.23.8",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "@tailwindcss/vite": "^4.1.4",
+    "@tanstack/router-plugin": "^1.114.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.4.0",
+    "eslint": "^9.0.0",
+    "eslint-plugin-react": "^7.37.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^8.0.0",
+    "vite": "^6.3.0",
+    "vitest": "^4.1.4"
+  }
+}
